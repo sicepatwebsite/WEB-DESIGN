@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learn Array</title>
+	<style>
+	* { margin: 0; padding: 0; }
+
+	.box {
+		width: 100px;
+		height: 100px;
+		background-color: yellow;
+		margin: 10px;
+		float: left;
+	}
+
+	</style>
+</head>
+<body>
+	<div id="there"></div>
+
+	<script>
+	var mybucket = [
+	'laptop', 
+	'phone', 
+	'cup',
+	'thumb drive',
+	'pen',
+	'monitor',
+	'cable'
+
+	];
+
+	var x = '';
+	for (var i = 0; i < mybucket.length; i++) {
+		if (mybucket[i] == 'pen') {
+		x = x + '<div class="box" style="background-color:red">' + mybucket[i] + '</div>';
+	} else {
+		x = x + '<div class="box">' + mybucket[i] + '</div>';
+
+
+	}
+}
+
+	document.getElementById('there').innerHTML = x;
+
+
+	</script>
+
+</body>
+</html>

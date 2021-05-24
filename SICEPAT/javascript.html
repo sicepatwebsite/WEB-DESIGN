@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript intro</title>
+	<style>
+		.box {
+			width: 100px;
+			padding: 20px;
+			background-color: yellow;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<script>
+		var john = "this is a string";
+		var x = "this is x";
+		var msg = john + " " + x;
+		//alert(msg);//
+	</script>
+	<h1 id="yeah">the original</h1>
+	<div class="box" onclick="changeit()">Click me</div>
+	<script>
+		//document.getElementById('yeah').innerHTML=msg;//id yeah dikasih isi msg pake innerhtml//
+	function changeit() {
+		document.getelementById('yeah').innerHTML = msg;
+		document.getelementById('yeah').style.color = "red";
+		document.getelementById('yeah').style.fontSize = "red";
+	}
+	</script>
+
+
+</body>
+</html>
+
+<script>
+
+	
+
+</script>

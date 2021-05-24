@@ -1,0 +1,1188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+* {
+
+			margin: 0;
+			padding: 0;
+		}
+
+		nav {
+			width: 100vw;
+			height: 80px;
+			background-color: #cb0909;
+			position: fixed;
+			top: 0;
+			left: 0;
+			z-index: 4;
+			box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+
+		}
+
+		main {
+			width: 100vw;
+			margin-top: 50px;
+			z-index: 1;
+
+		}
+
+		section {
+			width: 100%;
+			height: 324px;
+			margin: 0;
+			position: relative;
+
+		}
+
+
+		nav section {
+			height: 50px;
+
+		}
+
+		nav section .trigger_container {
+			width: 10%;
+			height: 50px;
+			float: left;
+			background-color: transparent;
+			position: relative;
+			display: none;
+
+		}
+
+		nav section .menus_container {
+			width: 60%;
+			height: 50px;
+			float: right;
+			background-color: transparent;
+			position: relative;
+		}
+
+		nav section .logo_container {
+			width: 10%;
+			height: 50px;
+			float: left;
+			left: 3vw;
+			margin-top: 0.5vh;
+			background-color: transparent;
+			position: relative;
+		}
+
+		nav section .icon_container {
+			width: 10%;
+			height: 50px;
+			float: right;
+			background-color: transparent;
+			position: relative;
+		}
+
+		nav section a {
+			margin-right: 20px;
+			margin-top: 15px;
+			color: white;
+		}
+
+		section#second {
+			width: 100vw;
+			background-color: white;
+			height: 428px;
+			position: relative;
+
+		}
+
+		section#second h2 {
+			font-size: 65px;
+			font-family: sans-serif;
+			position: absolute;
+			top: 380px;
+			left: 700px;
+		}
+
+		h1 {
+			width: 100vw;
+			height: 200px;
+			background-color: red;
+			font-style: 100px;
+			font-family: sans-serif;
+			margin-bottom: 20px;
+
+		}
+
+		h2 {
+
+			position: absolute;
+				width: 798px;
+				height: 91px;
+				left: 42vw;
+
+				font-family: Poppins;
+				font-style: normal;
+				font-weight: 500;
+				font-size: 24px;
+				line-height: 35px;
+				color: white;
+
+		}
+
+		section#first .boxramadhan {
+			background-image: url(../img/banner.png);
+			width: 100vw;
+			height: 324px;
+
+		}
+		
+		section#first .indahnyaramadhan {
+			width: 30vw; 
+			height: 25vh; 
+			left: 35vw; 
+			margin-top: -33vh; 
+			position: relative; 
+			float: left;
+			background-image: url(../img/indahnyaramadhan.png);
+
+		}	
+
+
+		section#third {
+			width: 100vw;
+			height: 75vh;
+			background-color: #cb0909;
+		}
+
+		section#third .kenapasicepat {
+			position: absolute;
+				width: 695px;
+				height: 91px;
+				left: 43vw;
+				margin-top: 4vh;
+
+				font-family: Poppins;
+				font-style: normal;
+				font-weight: 500;
+				font-size: 24px;
+				line-height: 35px;
+				color: white;
+		}
+
+
+		section#third .kenapasicepatbio {
+			position: absolute;
+				width: 798px;
+				height: 91px;
+				left: 23vw;
+				margin-top: -3vh;
+
+				font-family: Poppins;
+				font-style: normal;
+				font-weight: 300;
+				font-size: 16px;
+				line-height: 25px;
+				/* or 233% */
+
+				display: flex;
+				align-items: center;
+				text-align: center;
+
+				color: #FFFFFF;
+				z-index: 3;
+		}
+
+		section#third .reasonscontainer {
+			position: absolute;
+			width: 868px;
+			height: 410px;
+			left: 23vw;
+			top: 105px;
+		}
+
+		section#third .reasonscontainer .reason_1{
+			margin-top: 40px;
+			width: 319px;
+			height: 365px;
+			background-image: url(../img/reason_1.png);
+			float: left;
+			position: absolute;
+		}
+
+		section#third .reasonscontainer .reason_2{
+			margin-top: 5px;
+			width: 256px;
+			height: 360px;
+			background-image: url(../img/reason_2.png);
+			float: left;
+			left: 270px;
+			position: absolute;
+			z-index: 2;
+			backdrop-filter: blur(5px);
+
+		}
+
+		section#third .reasonscontainer .reason_3{
+			margin-top: 40px;
+			width: 350px;
+			height: 350px;
+			background-image: url(../img/reason_3.png);
+			float: left;
+			left: 500px;
+			position: absolute;
+			
+		}
+
+
+		section#third .buttonleft {
+			width: 81px;
+			height: 81px;
+			background-image: url(../img/leftbutton.png);
+			position: relative;
+			top: 165px;
+			left: -130px;
+			z-index: 1;
+		}
+
+		section#third .buttonright {
+			width: 81px;
+			height: 81px;
+			background-image: url(../img/rightbutton.png);
+			position: relative;
+			top: 70px;
+			right: -850px;
+			z-index: 1;
+		}
+
+		section#fourth {
+			width: 100vw;
+			height: 656px;
+			background-color: white;
+			position: relative;
+		}
+
+		section#fourth .containergabung {
+			border: 1px solid black;
+			position: absolute;
+			width: 72vw;
+			height: 28vh;
+			left: 13.5vw;
+			top: 46px;
+			border-radius: 15px;
+			border-width: 2pt;
+			border-color: #E8E8E8;
+
+		}
+
+		section#fourth .footerimage {
+			position: absolute;
+			width: 1440px;
+			height: 216px;
+			top: 440px;
+			background-image: url(../img/footerimage.png);
+
+		}
+
+		section#fourth .containerpartners {
+			position: absolute;
+			width: 1036px;
+			height: 238px;
+			bottom: 58px;
+			left: 195px;
+			background-image: url(../img/partners.png);
+			z-index: 1;
+
+		}
+
+		section#fourth .containerpartners2 {
+			display: none;
+		}
+		
+
+		section#fourth .containergabung .iconbox {
+			position: absolute;
+			width: 65px;
+			height: 66px;
+			top: 70px;
+			left: 45px;
+			z-index: 1;
+			background-image: url(../img/package.png);
+		}
+
+		section#fourth .containergabung .gabungbutton {
+			position: absolute;
+			width: 351px;
+			height: 98px;
+			top: 70px;
+			right: 41px;
+			z-index: 1;
+			background-image: url(../img/gabungsekarang.png);
+		}
+
+		section#fourth h5 {
+			margin-left: 123px;
+			font-family: Poppins;
+			font-style: normal;
+			margin-top: 70px;
+			padding: 0px;
+			font-weight: 400;
+			font-size: 25px;
+			line-height: 32px;
+			/* or 128% */
+
+			color: #4B4B4B;
+		}
+
+		section#fourth h6 {
+			font-family: Poppins;
+			font-style: normal;
+			font-weight: 600;
+			font-size: 20px;
+			line-height: 30px;
+			text-align: center;
+			padding-top: 294px;
+			left: 45vw;
+			float: left;
+			color: #242424;
+			position: absolute;
+
+		}
+
+		section#fifth {
+			width: 100vw;
+			height: 300px;
+			background-color: #cb0909;
+			position: relative;
+		}
+
+		section#fifth .textcontainer {
+			width: 30%;
+			height: 191px;
+			position: relative;
+			top: 40px;
+			left: 185px;
+		}
+
+		section#fifth .textcontainer2 {
+			width: 30%;
+			height: 191px;
+			position: absolute;
+			top: 40px;
+			left: 456px;
+		}
+
+		section#fifth .textcontainer3 {
+			width: 30vw;
+			height: 150px;
+			position: absolute;
+			top: 76px;
+			left: 592px;
+		}
+
+		section#fifth .textcontainer4 {
+			width: 30vw;
+			height: 191px;
+			position: absolute;
+			top: 40px;
+			left: 727px;
+		}
+
+		section#fifth .textcontainer5 {
+			width: 30vw;
+			height: 123px;
+			position: absolute;
+			top: 40px;
+			left: 995px;
+
+		}
+
+		section#fifth .textcontainer4 .locationicon {
+			width: 18px;
+			height: 23px;
+			position: absolute;
+			top: 40px;
+			left: 0px;
+			background-image: url(../img/mappin.png);
+		}
+
+		section#fifth .textcontainer4 .phoneicon {
+			width: 20px;
+			height: 21px;
+			position: absolute;
+			top: 100px;
+			left: 0px;
+			background-image: url(../img/phonecall.png);
+		}
+
+		section#fifth .textcontainer4 .lineicon {
+			width: 23px;
+			height: 23px;
+			position: absolute;
+			top: 130px;
+			left: 0px;
+			background-image: url(../img/lineicon.png);
+		}
+
+		section#fifth .textcontainer4 .emailicon {
+			width: 23px;
+			height: 25px;
+			position: absolute;
+			top: 160px;
+			left: 0px;
+			background-image: url(../img/envelopeopen.png);
+		}
+
+		section#fifth .textcontainer5 .googleplay {
+			width: 130px;
+			height: 43px;
+			position: absolute;
+			top: 30px;
+			left: -3px;
+			background-image: url(../img/googleplay.png);
+
+		}
+
+		section#fifth .textcontainer5 .appstore {
+			width: 130px;
+			height: 43px;
+			position: absolute;
+			top: 32px;
+			left: 127px;
+			background-image: url(../img/appstore.png);
+
+		}
+
+		section#fifth .textcontainer5 .facebook {
+			width: 32px;
+			height: 32px;
+			position: absolute;
+			top: 90px;
+			left: 0px;
+			background-image: url(../img/facebooklogo.png);
+
+		}
+
+		section#fifth .textcontainer5 .instagram {
+			width: 32px;
+			height: 32px;
+			position: absolute;
+			top: 90px;
+			left: 47px;
+			background-image: url(../img/instagramlogo.png);
+
+		}
+
+		section#fifth .textcontainer5 .linkedin {
+			width: 32px;
+			height: 32px;
+			position: absolute;
+			top: 90px;
+			left: 94px;
+			background-image: url(../img/linkedinlogo.png);
+
+		}
+
+		section#fifth .textcontainer5 .twitter {
+			width: 32px;
+			height: 32px;
+			position: absolute;
+			top: 90px;
+			left: 141px;
+			background-image: url(../img/twitterlogo.png);
+
+		}
+
+		section#fifth .textcontainer5 .youtube {
+			width: 32px;
+			height: 32px;
+			position: absolute;
+			top: 90px;
+			left: 188px;
+			background-image: url(../img/youtubelogo.png);
+
+		}
+
+		section#fifth h4 {
+			color: white;
+			font-family: Poppins;
+			font-style: normal;
+			font-weight: 600;
+			font-size: 15px;
+			line-height: 22px;
+		}
+
+		section#fifth h3 {
+			color: white;
+			font-family: Poppins;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 25px;
+		}
+
+		
+		#callc {
+			height: 108px;
+			  left: 78vw;
+			  position: fixed;
+			  bottom: 50px;
+			  width: 278px;
+			  z-index: 1;
+
+		}
+		#callc img {
+			width: 100%;
+		}
+
+		.circle {
+			width: 108px;
+			height: 108px;
+			background-image: url(../img/calcc.png);
+			left: 90vw;
+			z-index: 4;
+			float: right;
+   			margin-top: -112px;
+   			position: fixed;
+			bottom: 50px;
+			display: none;
+
+		}
+		
+
+		.banner {
+			background-color: transparent;
+			position: relative;
+			float: left;
+			padding-left: 4vw;
+			margin-top: 2vw;
+		}
+		.banner2 {
+			background-color: transparent;
+			position: relative;
+			float: left;
+			padding-left: 4.3vw;
+			margin-top: 2vw;
+		}
+
+		.banner3 {
+			background-color: transparent;
+			position: relative;
+			float: left;
+			padding-left: 4.3vw;
+			margin-top: 2vw;
+		}
+		
+		.banner4 {
+			background-color: transparent;
+			position: relative;
+			float: left;
+			padding-left: 4.3vw;
+			margin-top: 2vw;
+		}
+
+		.banner5 {
+			background-color: transparent;
+			position: relative;
+			float: left;
+			padding-left: 4.3vw;
+			margin-top: 2vw;
+		}
+
+		.banner6 {
+			background-color: transparent;
+			position: relative;
+			float: left;
+			padding-left: 4.3vw;
+			margin-top: 2vw;
+		}
+
+		.banner7 {
+			background-color: transparent;
+			position: relative;
+			float: left;
+		}
+
+		nav section .contacticon{
+			width: 35px;
+			height: 35px;
+			background-image: url(../img/usercircle.png);
+			float: right;
+			position: relative;
+			top: 23px;
+			right: 78px;
+
+		}
+
+		nav section .searchicon{
+			width: 35px;
+			height: 35px;
+			background-image: url(../img/magnifyingglass.png);
+			float: right;
+			position: relative;
+			top: 23px;
+			right: 50px;
+		}
+
+		section#second .buttontopcontainer {
+			position: absolute;
+			width: 100vw;
+			height: 92px;
+			background-color: transparent;
+			top: -130px;
+			float: left;
+		}
+
+		section#second .buttontopcontainer .buttonlacak {
+			width: 121px;
+			height: 92px;
+			background-image: url(../img/component2.png);
+			position: absolute;
+			top: 0;
+			left: 41vw;
+		}
+
+		section#second .buttontopcontainer .buttoncek {
+			width: 120px;
+			height: 92px;
+			background-image: url(../img/component3.png);
+			position: absolute;
+			float: left;
+			top: 0;
+			left: 51vw;
+		}
+
+		section#second .resicontainer {
+			border: 1px solid black;
+			opacity: 0.5;
+			border-radius: 5px;
+			width: 63vw;
+			height: 300px;
+			margin-top: 80px;
+			margin-bottom: 0;
+			margin-left: auto;
+			margin-right: auto;
+			z-index: 1;
+			position: relative;
+
+		}
+
+		section#second .resiright {
+			width: 30vw;
+			margin-top: -65px;
+			height: 50px;
+			padding-left: 135px;
+			font-family: Poppins;
+			font-style: italic;
+			font-weight: 300;
+			font-size: 24px;
+
+
+		}
+
+		section#second .resileft {
+			width: 7.5vw;
+			height: 100px;
+			border-right: 1px solid black;
+
+		}
+
+		section#second .resirow {
+			width: 63vw;
+			height: 100px;
+			border-bottom: 1px solid black;
+
+		}
+
+		section#second .character3 {
+			position: absolute;
+			width: 34px;
+			height: 31px;
+			top: 235px;
+			left: 21vw;
+			z-index: 1;
+			background-image: url(../img/receipt.png);
+		}
+
+		section#second .character2 {
+			position: absolute;
+			width: 34px;
+			height: 31px;
+			top: 135px;
+			left: 21vw;
+			z-index: 1;
+			background-image: url(../img/receipt.png);
+		}
+
+		section#second .character {
+			position: absolute;
+			width: 34px;
+			height: 31px;
+			top: 35px;
+			left: 21vw;
+			z-index: 1;
+			background-image: url(../img/receipt.png);
+		}
+
+		section#second .tambahresi {
+			color: #cb0909; 
+			font-family: poppins; 
+			font-size: 15px; 
+			font-weight: 400; 
+			padding-left: 20vw; 
+			padding-top: 15px;
+		}
+
+		section#second .lacakbutton {
+			position: absolute;
+			width: 121px;
+			height: 34px;
+			left: 46vw;
+			background-image: url(../img/lacak.png);
+			top: 45vh;
+
+		}
+
+			a:link {
+			  color: white;
+			  font-size: 16px;
+			  font-family: Poppins;
+			  font-weight: bold;
+			 
+			}
+
+			.home .no-resi1 {
+			  background-color: transparent;
+			  border: 0;
+			  height: 34px;
+			  left: 362px;
+			  letter-spacing: 0.00px;
+			  line-height: normal;
+			  mix-blend-mode: normal;
+			  padding: 0;
+			  position: absolute;
+			  resize: none;
+			  text-align: left;
+			  top: 513px;
+			  width: 158px;
+
+			}
+			.home .no-resi2 {
+			  background-color: transparent;
+			  height: auto;
+			  left: 362px;
+			  letter-spacing: 0.00px;
+			  line-height: normal;
+			  mix-blend-mode: normal;
+			  position: absolute;
+			  text-align: left;
+			  top: 588px;
+			  width: 158px;
+			}
+
+			.home .no-resi3 {
+			  background-color: transparent;
+			  height: auto;
+			  left: 362px;
+			  letter-spacing: 0.00px;
+			  line-height: normal;
+			  mix-blend-mode: normal;
+			  position: absolute;
+			  text-align: left;
+			  top: 664px;
+			  width: 158px;
+
+			}
+			
+
+			  .home .rectangle-7-C61RwL {
+			  background-color: transparent;
+			  border-width: 1px
+			  border-radius: 5px;
+			  height: 228px;
+			  left: 268px;
+			  opacity: 0.3;
+			  position: absolute;
+			  top: 491px;
+			  width: 907px;
+
+			}
+
+			.lacak-resi {
+				background-color: transparent;
+			  color: #ffffffe6;
+			  font-family: var(--font-family-poppins);
+			  font-size: var(--font-size-xxl);
+			  font-weight: 700;
+			  height: 33.70%;
+			  left: 0px;
+			  letter-spacing: 0.00px;
+			  line-height: 20px;
+			  mix-blend-mode: normal;
+			  position: absolute;
+			  text-align: center;
+			  top: 80.35%;
+			  width: 101.65%;
+			}
+	
+
+			p {
+				
+				
+
+				font-family: Poppins;
+				font-style: normal;
+				font-weight: 300;
+				font-size: 16px;
+				line-height: 25px;
+				/* or 233% */
+
+				display: flex;
+				align-items: center;
+				text-align: center;
+
+				color: #FFFFFF;
+
+				}
+
+
+
+
+
+
+
+
+
+
+
+	@media (max-width: 700px) {
+
+		section {
+
+		}
+
+		nav section .trigger_container {
+			width: 40px;
+			height: 40px;
+			background-image: url(../img/hamburgermenu.png);
+			display: block;
+			float: left;
+			left: 5vw;
+			top: 3vh;
+		}
+
+		nav section .menus_container {
+			position: fixed;
+			width: 30vw;
+			height: 100vh;
+			top: 0;
+			left: -100vw;
+			z-index: 9999;
+			transition: left 1s;
+			background-color: #cb0910
+
+
+
+		}
+
+		nav section .menus_container .banner {
+			width: 100%;
+			padding-left: 25%;
+			margin-top: 20%;
+		
+		}
+
+		nav section .menus_container .banner2 {
+			width: 100%;
+			padding-left: 25%;
+			margin-top: 10%;
+		}
+
+		nav section .menus_container .banner3 {
+			width: 100%;
+			padding-left: 25%;
+			margin-top: 10%;
+		}
+
+		nav section .menus_container .banner4 {
+			width: 100%;
+			padding-left: 25%;
+			margin-top: 10%;
+		}
+
+		nav section .menus_container .banner5 {
+			width: 100%;
+			padding-left: 25%;
+			margin-top: 10%;
+		}
+
+		nav section .menus_container .banner6 {
+			width: 100%;
+			padding-left: 25%;
+			margin-top: 10%;
+
+		}
+
+		nav section .menus_container #close_container {
+			position: absolute;
+			width: 10vw;
+			height: 100vh;
+			top: 0;
+			left: 100%;
+			background-color: #9f0000;
+
+		}
+
+		nav section .menus_container #close_container .close_button {
+			width: 80%;
+			height: 7vw;
+			margin-top: 50%;
+			margin-left: 15%;
+			background-image: url(../img/x.png);
+		}
+
+		nav section .logo_container {
+			width: 50%;
+			margin-left: 5vw;
+		}
+
+		nav section .icon_container {
+			width: 30%;
+			margin-right: -4vw;
+		}
+
+		/*section 1*/
+
+		section#first .boxramadhan {
+			width: 100%;
+		}
+
+		section#first .indahnyaramadhan {
+			width: 90vw;
+			background-repeat: no-repeat;
+			margin-left: -27vw;
+		}
+
+		/*section 2*/
+
+		section#second .buttontopcontainer {
+			width: 100%;
+			margin-left: 8px;
+		}
+
+		section#second .buttontopcontainer .buttonlacak {
+			left: 25vw;
+		}
+
+		section#second .buttontopcontainer .buttoncek {
+
+		}
+
+		section#second .resicontainer {
+			width: 85vw;
+			height: 180px;
+			
+		}
+
+		section#second .resiright {
+			width: 30vw;
+			margin-top: -44px;
+			height: 20px;
+			padding-left: 80px;
+			font-size: 18px;
+
+
+		}
+
+		section#second .resileft {
+			width: 11vw;
+			height: 60px;
+
+		}
+
+		section#second .resirow {
+			width: 85vw;
+			height: 60px;
+
+		}
+
+		section#second .character3 {
+			top: 135px;
+			left: 9.5vw;
+		}
+
+		section#second .character2 {
+			top: 75px;
+			left: 9.5vw;
+		}
+
+		section#second .character {
+			top: 15px;
+			left: 9.5vw;
+		}
+
+		section#second .tambahresi {
+			padding-left: 40vw;
+			padding-top: 1vh;
+		}
+
+		section#second .lacakbutton {
+			left: 39vw;
+			background-image: url(../img/lacak.png);
+			top: 35vh;
+		}
+
+		/*section 3*/
+
+		section#third {
+			width: 100vw;
+			height: 550px;
+			background-color: #cb0909;
+			top: -10vh;
+		}
+
+		section#third .kenapasicepat {
+			left: 30vw;
+		}
+
+		section#third .kenapasicepatbio {
+			left: 8vw;
+			width: 85vw;
+			margin-top: -5px;
+		}
+
+		section#third .reasonscontainer .reason_1{
+			left: 1vw;
+			top: 25px;
+		}
+
+		section#third .reasonscontainer .reason_2{
+			display: none;
+			
+		}
+
+		section#third .reasonscontainer .reason_3{
+			display: none;
+			
+		}
+
+		section#third .buttonleft {
+			margin-left: 35px;
+			margin-top: 10px;
+		}
+
+		section#third .buttonright {
+			left: 280px;
+			margin-top: 10px;
+			float: left;
+		}
+
+		/*section 4*/
+
+		section#fourth .containergabung {
+			height: 250px;
+			width: 85vw;
+			left: 7vw;
+			top: -20px;
+		}
+
+		section#fourth .containergabung .gabungbutton {
+			right: 20px;
+			top: 140px;
+			size: -10%;
+		}
+
+		section#fourth h5 {
+			margin-left: 120px;
+			margin-top: 35px;
+			padding: 0px;
+			font-weight: 400;
+			font-size: 25px;
+			line-height: 28px;
+		
+		}
+
+		section#fourth h6 {
+			left: 42vw;
+			margin-top: -25px;
+
+		}
+
+		section#fourth .containerpartners {
+			display: none;
+
+		}
+
+		section#fourth .containerpartners2 {
+			position: absolute;
+			width: 393px;
+			height: 299px;
+			bottom: 30px;
+			left: 12vw;
+			background-image: url(../img/partners2.png);
+			z-index: 1;
+			display: block;
+		}
+
+		/*section 5*/
+
+		section#fifth {
+			height: 490px;
+		}
+
+		section#fourth .containergabung .iconbox {
+			top: 35px;
+			margin-left: 0px;
+		
+		}
+
+		section#fifth .textcontainer {
+			left: 20vw;
+			width: 30%;
+		}
+
+		section#fifth .textcontainer2 {
+			left: 50vw;
+			width: 70%;
+		}
+
+		section#fifth .textcontainer3 {
+			left: 75vw;
+		}
+
+		section#fifth .textcontainer4 {
+			left: 20vw;
+			top: 250px;
+			width: 100%;
+		}
+
+		/*call center*/
+
+
+		#callc {
+			height: 108px;
+			  left: 43vw;
+			  position: fixed;
+			  bottom: 50px;
+			  width: 278px;
+			  z-index: 3;
+
+		}
+
+		#callc img {
+			display: none;
+		
+		}
+
+		.circle {
+			width: 108px;
+			height: 108px;
+			background-image: url(../img/calcc.png);
+			left: 77vw;
+			z-index: 4;
+			float: right;
+   			margin-top: -112px;
+   			position: fixed;
+			bottom: 50px;
+			display: block;
+
+		}
+
+	}
+
+
+
